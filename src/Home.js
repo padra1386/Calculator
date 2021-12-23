@@ -8,8 +8,12 @@ function Form() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        setCount(click + 1)
-
+        setCount(click + 1)    
+    }
+    function Reset(e) {
+        e.preventDefault();
+        setCount(click - click)
+        
     }
 
     return (
@@ -21,6 +25,7 @@ function Form() {
                     <h3 className='center-txt'>تعداد ذکر({click})</h3>
                 </div>
             </form>
+            <button onClick={Reset} className='btn btn-danger reset center-btn text-font'>ریست</button>
         </div>
     );
 }

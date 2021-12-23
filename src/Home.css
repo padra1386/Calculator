@@ -12,3 +12,9 @@
 .text-font {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.reset {
+  position: absolute;
+  top: 38%;
+  left: 46.5%;
+}
