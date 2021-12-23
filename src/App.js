@@ -1,11 +1,11 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
-import Form from './Home'
+import Calculator from './components/Calculator'
 function App() {
   return (
     <div className='App'>
-      <Form />
+      <Calculator />
     </div>
   )
 }
