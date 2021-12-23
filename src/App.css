@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.btn-primary {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  top: 50%;
+}
